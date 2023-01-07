@@ -8,6 +8,7 @@ specifiers:
   '@nrwl/workspace': 15.4.5
   '@swc/core': ^1.2.173
   '@testing-library/react': 13.4.0
+  '@testing-library/user-event': ^14.4.3
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
@@ -53,6 +54,7 @@ devDependencies:
   '@nrwl/workspace': 15.4.5_ws2shuyr4phcgqir2n2nptqu2m
   '@swc/core': 1.3.25
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
+  '@testing-library/user-event': 14.4.3_ua4wuun3fnehcjqtqj2e2ldgpe
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
@@ -772,6 +774,15 @@ packages:
       '@types/react-dom': 18.0.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    dev: true
+
+  /@testing-library/user-event/14.4.3_ua4wuun3fnehcjqtqj2e2ldgpe:
+    resolution: {integrity: sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==}
+    engines: {node: '>=12', npm: '>=6'}
+    peerDependencies:
+      '@testing-library/dom': '>=7.21.4'
+    dependencies:
+      '@testing-library/dom': 8.19.1
     dev: true
 
   /@tootallnate/once/2.0.0:
