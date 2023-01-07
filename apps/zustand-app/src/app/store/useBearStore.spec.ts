@@ -1,7 +1,9 @@
 import { renderHook, act } from '@testing-library/react';
-import { useBearStore } from './useBearStore';
+import { createBearStore } from './useBearStore';
 
 describe('useBearStore', () => {
+  const useBearStore = createBearStore();
+
   it('should be initialized as 0', () => {
     const { result } = renderHook(() => useBearStore((state) => state.bears));
 
