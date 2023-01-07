@@ -1,7 +1,7 @@
-import { selectBearStore } from './store/useBearStore';
+import { useBearContext } from './store/useBearContext';
 
 export default function BearsDisplay() {
-  const bears = selectBearStore.useBears();
+  const bears = useBearContext((s) => s.bears);
 
   return <p>{bears} bears around here</p>;
 }

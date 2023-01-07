@@ -18,7 +18,6 @@ specifiers:
   '@vitejs/plugin-react-swc': ^3.0.1
   '@vitest/coverage-c8': ~0.25.8
   '@vitest/ui': ^0.25.8
-  auto-zustand-selectors-hook: ^2.0.0
   eslint: ~8.15.0
   eslint-config-prettier: 8.1.0
   eslint-plugin-import: 2.26.0
@@ -41,7 +40,6 @@ specifiers:
   zustand: ^4.2.0
 
 dependencies:
-  auto-zustand-selectors-hook: 2.0.0_zustand@4.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   tslib: 2.4.1
@@ -1586,15 +1584,6 @@ packages:
   /asynckit/0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
-
-  /auto-zustand-selectors-hook/2.0.0_zustand@4.2.0:
-    resolution: {integrity: sha512-QPmI3PUgTW3np6coV+ffIP/yygYPvi8qWXezPW82u9cVLr79Tsf2TkH5/auFdhnL5iAyLOk4Sjk7XQwnmDsbSw==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      zustand: '>=4'
-    dependencies:
-      zustand: 4.2.0_react@18.2.0
-    dev: false
 
   /available-typed-arrays/1.0.5:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}

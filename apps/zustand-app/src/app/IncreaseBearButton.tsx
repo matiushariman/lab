@@ -1,8 +1,8 @@
-import { selectBearStore } from './store/useBearStore';
 import { resetAllStores } from './store/createResettableStore';
+import { useBearContext } from './store/useBearContext';
 
 export default function IncreaseBearButton() {
-  const increase = selectBearStore.useIncrease();
+  const increase = useBearContext((s) => s.increase);
 
   return (
     <>
