@@ -1,4 +1,4 @@
-import create from 'zustand';
+import { createResettableStore } from './createResettableStore';
 import { devtools, persist } from 'zustand/middleware';
 import {
   createSelectorHooks,
@@ -10,7 +10,7 @@ interface BearState {
   increase: (by: number) => void;
 }
 
-export const useBearStore = create<BearState>()(
+export const useBearStore = createResettableStore<BearState>()(
   devtools(
     persist(
       (set) => ({
