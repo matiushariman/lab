@@ -1,14 +1,15 @@
 import * as Popover from '@radix-ui/react-popover';
-import './PopoverDemo.styles.css';
 
 export const PopoverDemo = () => (
-  <div className="PopoverWrapper">
+  <div className="bg-gradient-to-br from-cyan-900 to-cyan-700 h-screen flex items-center justify-around">
     <Popover.Root>
-      <Popover.Trigger className="PopoverTrigger">Show info</Popover.Trigger>
+      <Popover.Trigger className="bg-white border text-sm border px-4 py-2 rounded cursor-pointer font-bold">
+        Show info
+      </Popover.Trigger>
       <Popover.Portal>
-        <Popover.Content className="PopoverContent">
+        <Popover.Content className="shadow p-4 bg-white rounded-md text-sm transition">
           Some content
-          <Popover.Arrow className="PopoverArrow" />
+          <Popover.Arrow className="fill-white" />
         </Popover.Content>
       </Popover.Portal>
     </Popover.Root>
