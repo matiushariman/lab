@@ -11,11 +11,19 @@ specifiers:
   '@nrwl/storybook': 15.5.1
   '@nrwl/vite': 15.5.1
   '@nrwl/workspace': 15.5.1
+  '@radix-ui/colors': 0.1.8
   '@radix-ui/react-popover': 1.0.2
-  '@storybook/addon-essentials': ^6.5.15
-  '@storybook/builder-vite': ^0.2.6
-  '@storybook/core-server': ^6.5.15
-  '@storybook/react': ^6.5.15
+  '@storybook/addon-actions': 6.5.15
+  '@storybook/addon-backgrounds': 6.5.15
+  '@storybook/addon-docs': 6.5.15
+  '@storybook/addon-essentials': 6.5.15
+  '@storybook/addon-measure': 6.5.15
+  '@storybook/addon-outline': 6.5.15
+  '@storybook/builder-vite': 0.2.6
+  '@storybook/client-api': 6.5.15
+  '@storybook/client-logger': 6.5.15
+  '@storybook/core-server': 6.5.15
+  '@storybook/react': 6.5.15
   '@storybook/test-runner': ^0.7.2
   '@svgr/webpack': ^5.4.0
   '@swc/core': ^1.2.173
@@ -55,6 +63,7 @@ specifiers:
   zustand: ^4.2.0
 
 dependencies:
+  '@radix-ui/colors': 0.1.8
   '@radix-ui/react-popover': 1.0.2_2zx2umvpluuhvlq44va5bta2da
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -72,8 +81,15 @@ devDependencies:
   '@nrwl/storybook': 15.5.1_wncj4woafkgwpn75eo3mwa66c4
   '@nrwl/vite': 15.5.1_dyqktvtr6fqsxmrlwvxbt4ba3e
   '@nrwl/workspace': 15.5.1_ws2shuyr4phcgqir2n2nptqu2m
+  '@storybook/addon-actions': 6.5.15_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-backgrounds': 6.5.15_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-docs': 6.5.15_ghwk5gzf2skazdjtlwcut67rg4
   '@storybook/addon-essentials': 6.5.15_ghwk5gzf2skazdjtlwcut67rg4
-  '@storybook/builder-vite': 0.2.7_5viy64ysn27j6dwutp4zh472by
+  '@storybook/addon-measure': 6.5.15_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-outline': 6.5.15_biqbaboplfbrettd7655fr4n2y
+  '@storybook/builder-vite': 0.2.6_5viy64ysn27j6dwutp4zh472by
+  '@storybook/client-api': 6.5.15_biqbaboplfbrettd7655fr4n2y
+  '@storybook/client-logger': 6.5.15
   '@storybook/core-server': 6.5.15_l5mfndz4oofjzphygwrycjhl44
   '@storybook/react': 6.5.15_q5n5m5ih2r7t5ztio3y4ub4hhu
   '@storybook/test-runner': 0.7.2_md5vhemw2afkiv7khpnf5kxiz4
@@ -3679,6 +3695,10 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
+  /@radix-ui/colors/0.1.8:
+    resolution: {integrity: sha512-jwRMXYwC0hUo0mv6wGpuw254Pd9p/R6Td5xsRpOmaWkUHlooNWqVcadgyzlRumMq3xfOTXwJReU0Jv+EIy4Jbw==}
+    dev: false
+
   /@radix-ui/primitive/1.0.0:
     resolution: {integrity: sha512-3e7rn8FDMin4CgeL7Z/49smCA3rFYY3Ha2rUQ7HRWFadS5iCRw08ZgVT1LaNTCNqgvrUiyczLflrVrF0SRQtNA==}
     dependencies:
@@ -4344,8 +4364,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.7_5viy64ysn27j6dwutp4zh472by:
-    resolution: {integrity: sha512-IvgInn1dsL4amHn8IDHWv2KaoWyRWxGQvHvctfHl7ayN8fke6Tzg8lBUxVoGBfqeoO3glo/zsVUUO+aNeUUlxQ==}
+  /@storybook/builder-vite/0.2.6_5viy64ysn27j6dwutp4zh472by:
+    resolution: {integrity: sha512-TwlqJykq5KfM8SmDXWQtUHrYg4XySxwOe3RKud4iGZDYmqPc/ayB9XSF6DR50WgC7gKK7WIVIN+ZcGPphy5zWg==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
       '@sveltejs/vite-plugin-svelte': ^1.0.0

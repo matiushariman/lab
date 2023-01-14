@@ -7,9 +7,7 @@ const Story: ComponentMeta<typeof PopoverDemo> = {
 };
 export default Story;
 
-const Template: ComponentStory<typeof PopoverDemo> = (args) => (
-  <PopoverDemo {...args} />
-);
+const Template: ComponentStory<typeof PopoverDemo> = () => <PopoverDemo />;
 
 export const Primary = Template.bind({});
 Primary.args = {};
