@@ -48,6 +48,7 @@ specifiers:
   eslint-plugin-react: 7.31.11
   eslint-plugin-react-hooks: 4.6.0
   html-webpack-plugin: ^5.5.0
+  jotai: ^2.0.1
   jsdom: ~20.0.3
   nx: 15.5.1
   postcss: 8.4.19
@@ -71,6 +72,7 @@ dependencies:
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-popover': 1.0.2_2zx2umvpluuhvlq44va5bta2da
   date-fns: 2.29.3
+  jotai: 2.0.1_react@18.2.0
   react: 18.2.0
   react-day-picker: 8.4.1_r6j3756ioqf5pjc2u22wj25rla
   react-dom: 18.2.0_react@18.2.0
@@ -10794,6 +10796,18 @@ packages:
       '@sideway/formula': 3.0.1
       '@sideway/pinpoint': 2.0.0
     dev: true
+
+  /jotai/2.0.1_react@18.2.0:
+    resolution: {integrity: sha512-b/BpBFkv3nq8HgT6YX5h5/y9VfKIn9OL1dO6gd9bWTgKt6LLe24VIMURTDwSYS888XfubuRQlbepb5IQGAtmcQ==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /js-string-escape/1.0.1:
     resolution: {integrity: sha512-Smw4xcfIQ5LVjAOuJCvN/zIodzA/BBSsluuoSykP+lUvScIi4U6RJLfwHet5cxFnCswUjISV8oAXaqaJDY3chg==}
