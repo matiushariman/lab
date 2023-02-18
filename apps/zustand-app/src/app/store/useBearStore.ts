@@ -1,9 +1,5 @@
 import { createResettableStore } from './createResettableStore';
 import { devtools } from 'zustand/middleware';
-import {
-  createSelectorHooks,
-  ZustandHookSelectors,
-} from 'auto-zustand-selectors-hook';
 
 export interface BearProps {
   bears: number;
@@ -29,7 +25,3 @@ export const createBearStore = (initProps?: Partial<BearProps>) => {
 };
 
 export type BearStore = ReturnType<typeof createBearStore>;
-
-export const selectBearStore = createSelectorHooks(
-  createBearStore({})
-) as BearStore & ZustandHookSelectors<BearState>;
