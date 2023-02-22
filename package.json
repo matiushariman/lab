@@ -71,8 +71,9 @@
     "react": "18.2.0",
     "react-day-picker": "8.4.1",
     "react-dom": "18.2.0",
+    "react-tracked": "^1.7.11",
+    "scheduler": "^0.23.0",
     "tslib": "^2.4.1",
     "zustand": "^4.2.0"
   }
 }
-
