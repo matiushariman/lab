@@ -8,13 +8,13 @@
     "@babel/core": "7.20.12",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "7.12.13",
-    "@nrwl/cli": "15.6.3",
-    "@nrwl/eslint-plugin-nx": "15.6.3",
-    "@nrwl/linter": "15.6.3",
-    "@nrwl/react": "15.6.3",
-    "@nrwl/storybook": "15.6.3",
-    "@nrwl/vite": "15.6.3",
-    "@nrwl/workspace": "15.6.3",
+    "@nrwl/cli": "15.7.2",
+    "@nrwl/eslint-plugin-nx": "15.7.2",
+    "@nrwl/linter": "15.7.2",
+    "@nrwl/react": "15.7.2",
+    "@nrwl/storybook": "15.7.2",
+    "@nrwl/vite": "15.7.2",
+    "@nrwl/workspace": "15.7.2",
     "@storybook/addon-actions": "6.5.15",
     "@storybook/addon-backgrounds": "6.5.15",
     "@storybook/addon-docs": "6.5.15",
@@ -50,7 +50,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "html-webpack-plugin": "^5.5.0",
     "jsdom": "~20.0.3",
-    "nx": "15.6.3",
+    "nx": "15.7.2",
     "postcss": "8.4.19",
     "prettier": "^2.6.2",
     "react-test-renderer": "18.2.0",
@@ -77,3 +77,4 @@
     "zustand": "^4.2.0"
   }
 }
+
